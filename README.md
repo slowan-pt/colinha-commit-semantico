@@ -1,4 +1,4 @@
-# Colinha - Commit Semântico
+# Colinha - Commit Semântico:
 Essa colinha foi baseada em dois documentos:
 - [Karma Runner](https://karma-runner.github.io/6.3/dev/git-commit-msg.html)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -6,12 +6,10 @@ Essa colinha foi baseada em dois documentos:
 Deixei de uma forma simplificada de acordo com o que eu vi ser mais usado no dia a dia das empresas que trabalhei & o que eu vi dar mais certo.
 
 ## Formato:
-Os commits devem ser escrito com o seguinte formato, onde o _type_ é obrigatório e pode ser consultado no próximo tópico e a descrição descreve a ação daquele commit mais detalhadamente:
+Os commits devem ser escritos de acordo com o formato "_type_"
 
-`<type>: <description>`
-
-## Type
-O _type_ pode ser um desses tipos:
+## Type:
+_type_ pode ser um desses tipos:
 
 | Prefixo | Descrição           | Significado                                    |
 |---------|---------------------|------------------------------------------------|
@@ -27,9 +25,11 @@ O _type_ pode ser um desses tipos:
 | chore   | Tarefas             | Outras mudanças que não modificam arquivos de código-fonte ou de teste |
 | revert  | Reverter            | Reverte um commit anterior                    |
 
+## Exemplos:
+`<type>: <description>`
+`feat: creates Hero component UI`
+`refactor: deletes unused code`
+`chore: install material UI, emotion and icons material Libs`
 
-
-
-## ✒️ Autor
-
+## ✒️ Autor:
 * **[Adriana Saty](https://github.com/AdrianaSaty)** 
